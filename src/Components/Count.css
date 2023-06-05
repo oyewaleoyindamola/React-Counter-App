@@ -1,0 +1,39 @@
+.container{
+    height: 100svh;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countContainer{
+    height: 50%;
+    aspect-ratio: 1/1;
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.display{
+    text-align: center;
+    font-size: 2rem;
+}
+.buttonContainer{
+    display: flex;
+    gap: 0.5rem;
+}
+.buttonContainer button{
+    padding: 0.5rem 1rem;
+}
+.increase{
+    background-color: green;
+    border-radius: 0.5rem;
+    color: white;
+}
+.decrease{
+    background-color: red;
+    border-radius: 0.5rem;
+    color: white;
+}
